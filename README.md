@@ -84,8 +84,8 @@ predict_rpart <- predict(fit_rpart, valid)
 (accuracy_rpart <- co
 nf_rpart$overall[1])
 ```
- Accuracy 
-0.6618522
+* Accuracy *
+*0.6618522*
 
 
 #Second Model
@@ -113,8 +113,8 @@ predict_rf <- predict(fit_rf, valid)
  (accuracy_rf <- conf_rf$overall[1])
 ```
 
-Accuracy 
-0.9998301 
+*Accuracy *
+*0.9998301 *
  
 #Conclusion
  Random Forests yielded better Results.
